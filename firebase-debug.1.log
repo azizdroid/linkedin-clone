@@ -1,0 +1,55 @@
+[debug] [2021-05-02T12:11:35.712Z] ----------------------------------------------------------------------
+[debug] [2021-05-02T12:11:35.716Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Sabera Aziz\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-05-02T12:11:35.716Z] CLI Version:   8.11.2
+[debug] [2021-05-02T12:11:35.716Z] Platform:      win32
+[debug] [2021-05-02T12:11:35.716Z] Node Version:  v12.18.3
+[debug] [2021-05-02T12:11:35.718Z] Time:          Sun May 02 2021 17:41:35 GMT+0530 (India Standard Time)
+[debug] [2021-05-02T12:11:35.718Z] ----------------------------------------------------------------------
+[debug] [2021-05-02T12:11:35.718Z] 
+[debug] [2021-05-02T12:11:35.733Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-05-02T12:11:35.734Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Sabera Aziz\Desktop\LinkedIn
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-05-02T12:11:59.721Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/weather-nrejyx  
+ 
+[debug] [2021-05-02T12:12:00.208Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 02 May 2021 12:12:01 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  Using project weather-nrejyx (Weather) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-05-02T12:12:50.865Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2021-05-02T12:12:51.067Z] <<< HTTP RESPONSE 200 {"accept-ranges":"bytes","vary":"Accept-Encoding, Origin","content-type":"application/json","cross-origin-resource-policy":"cross-origin","content-length":"1411","date":"Sun, 02 May 2021 12:12:52 GMT","expires":"Sun, 02 May 2021 13:02:52 GMT","cache-control":"public, max-age=3000","last-modified":"Thu, 29 Apr 2021 21:06:54 GMT","x-content-type-options":"nosniff","server":"sffe","x-xss-protection":"0","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""}
+[debug] [2021-05-02T12:12:51.451Z] Error: ENOENT: no such file or directory, open 'C:\Users\Sabera Aziz\Desktop\LinkedIn\build\index copy.html\index.html'
+    at Object.openSync (fs.js:462:3)
+    at Object.writeFileSync (fs.js:1362:35)
+    at Object.createFileSync (C:\Users\Sabera Aziz\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\ensure\file.js:34:6)
+    at Config.writeProjectFile (C:\Users\Sabera Aziz\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:155:8)
+    at C:\Users\Sabera Aziz\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:174:18
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[error] 
+[error] Error: An unexpected error has occurred.
